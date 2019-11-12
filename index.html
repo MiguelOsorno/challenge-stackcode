@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="js/calculadora.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
                     <img class="header_image" src="images/Logo_principal.png" alt="logo Principal" title="Logo" />
                 </div>
                 <div class="col col-4 text-right">
-                    <a class="accessLink" href="">Acceso a clientes</a>
+                    <a class="accessLink" href="https://admin.hiit.io/">Acceso a clientes</a>
                 </div>
             </div>
         </div>
@@ -32,8 +33,10 @@
             <div class="container">
                 <div class="row ">
                     <div class="col col-lg-5 col-md-12 col--bgcolor-white-transparent">
-                        <h1 class="banner_tittle banner_title--color-white banner_title--color-inverse">Controla tu centro deportivo</h1>
-                        <p class="banner_text banner_text--color-white banner_text--color-inverse">control total de tus clases, ingresos, alumnos y
+                        <h1 class="banner_tittle banner_title--color-white banner_title--color-inverse">Controla tu
+                            centro deportivo</h1>
+                        <p class="banner_text banner_text--color-white banner_text--color-inverse">control total de tus
+                            clases, ingresos, alumnos y
                             maestros en tiempo real desde cualquier
                             dispositivo</p>
                         <button type="button" class="btn button">
@@ -45,13 +48,12 @@
         </div>
     </div>
     <div class="banner">
-        <img class="banner_image" src="images/rombos2.png" />
-        <div class="banner_content">
+        <div class="banner_content banner_content--position">
             <div class="container">
                 <div class="row ">
-                    <div class="col col-5">
-                        <h1 class="banner_tittle banner_title--color-orange">Gestion poderosa</h1>
-                        <p class="banner_text ">
+                    <div class="col col-lg-5 col-md-12">
+                        <h1 class="banner_tittle banner_title--color-orange banner-title-aling">Gestion poderosa</h1>
+                        <p class="banner_text banner_text--aling">
                             Domina las metricas que importan y toma mejores decisiones con nuestras herramientas de
                             monitoreo en tiepo real
                         </p>
@@ -59,30 +61,37 @@
                 </div>
             </div>
         </div>
+        <picture>
+            <source media="(max-width: 720px)" srcset="images/rombosmovil.png">
+            <img class="banner_image" src="images/rombos2.png" />
+        </picture>
     </div>
     <div class="banner">
-        <img class="banner_image" src="images/Foto.png" />
+        <picture>
+            <source media="(max-width: 720px)" srcset="images/pesas_movil.png">
+            <img class="banner_image" src="images/Foto.png" />
+        </picture>
         <div class="banner_content">
             <div class="container">
                 <div class="row">
-                    <div class="col col-5">
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> Toma decisiones</span>
+                    <div class="col col-lg-5 col-md-12 ">
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> Toma decisiones</span>
                             con el tablero de indicadores</p>
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> Gestiona</span> tus
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> Gestiona</span> tus
                             socios y entrendores</p>
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> Registra</span> tus
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> Registra</span> tus
                             ventas</p>
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> Mide</span> la
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> Mide</span> la
                             productividad de tu personal</p>
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> Administra</span> tus
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> Administra</span> tus
                             rutinas y clases</p>
-                        <p class="banner_text banner_text--color-white"><span><img src="images/check.png" /></span><span
-                                class="textBold"> controla</span> tus
+                        <p class="banner_text banner_text--color-white banner_text--font-size"><span><img
+                                    src="images/check.png" /></span><span class="textBold"> controla</span> tus
                             ingresos y egresos</p>
                     </div>
                 </div>
@@ -99,46 +108,43 @@
             </div>
         </div>
     </div>
-    <div class="banner banner--bgcolor-drakgrey">
-        <div class="container">
-            <div class="row">
-                <div class="col col-3 text-right">
-                    <ul>
-                        <li class="list">
-                            Cuota fija
-                        </li>
-                        <li class="list">
-                            <span class="prices"><sup class="pricesign">$</sup>695</span>MXN
-                        </li>
-                    </ul>
-                </div>
-                <div class=" operation col col-6 ">
-                    <div class="row">
-                        <div class="col col-3 text-center">
-                            <img src="images/Group10.png" />
-                        </div>
-                        <div class="col col-6 text-center">
-
-                        </div>
-                        <div class="col col-3 text-center">
-                            <img src="images/Group5.png" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-3 text-left">
-                    <ul>
-                        <li class="list">
-                            Pago mensual
-                        </li>
-                        <li class="list">
-                            <span class="prices"><sup class="pricesign">$</sup>2,499</span>MXN
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div class="banner banner--bgcolor-drakgrey container-height">
+        <div class="container container-height">
         </div>
         <div class="banner_content align-items-end banner_content--bottom">
             <div class="container">
+                <div class="row">
+                    <div class="col text-right ">
+                        <ul class="ul-pading">
+                            <li class="list">
+                                Cuota fija
+                            </li>
+                            <li class="list ">
+                                <span class="prices"><sup class="pricesign">$</sup>695</span>MXN
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col-lg-1 ">
+                        <img class="img-fluid" src="images/Group10.png" />
+                    </div>
+                    <div class="col col-lg-2">
+                        <input onkeydown="calcularResultado()" id="second-number" class="text-input" type="text" />
+                    </div>
+                    <div class="col col-lg-1">
+                        <img id="equal" class="img-fluid" src="images/Group5.png" />
+                    </div>
+                    <div class="col text-left">
+                        <ul class="ul-pading">
+                            <li class="list ">
+                                Pago mensual
+                            </li>
+                            <li class="list ">
+                                <span class="prices"><sup class="pricesign">$</sup><span
+                                        id="result">2,499</span></span>MXN
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="row justify-content-center">
                     <button type="button" class="btn button">
                         INICIA GRATIS
@@ -157,7 +163,7 @@
             <div class="col col-10">
                 <div class="row align-items-center">
                     <div class="col col-5 text-right">
-                        <h1 class="banner_title--color-white">Ellos usan hitt</h1>
+                        <h1 class="banner_title--color-white banner_title--size">Ellos usan hitt</h1>
                     </div>
                     <div class="col col-6">
                         <img class="banner_image" src="images/ac-sports.png" />
@@ -176,7 +182,7 @@
             <div class="col col-10">
                 <div class="row align-items-center">
                     <div class="col col-5 text-center">
-                        <h1 class="banner_title--color-white">Beneficios</h1>
+                        <h1 class="banner_title--color-white banner_title--size">Beneficios</h1>
                     </div>
                     <div class="col">
                         <div class="row">
@@ -195,14 +201,47 @@
             </div>
         </div>
     </div>
+    <div>
+        <form action="#" method="post">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col col-4 text-left">
+                        <div class="row">
+                            <div class="col col-lg-3">
+                                <label class="label">nombre:</label>
+                            </div>
+                            <div class="col">
+                                <input class="input-form input-form--widht" type="text" name="nameuser" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-4 text-right">
+                        <div class="row">
+                            <div class="col col-lg-3">
+                                <label class="label">Email:</label>
+                            </div>
+                            <div class="col">
+                                <input class="input-form input-form--widht" type="email" name="emailuser" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col col-8">
+                        <textarea class="textarea" name="coments" cols="10" rows="4">comentarios</textarea>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
     <div class="banner banner--paddingtop-100 banner--paddingbottom-150 banner--bgcolor-drakgrey">
         <div class="container">
             <div class="row">
-                <div class="col col-3 ">
+                <div class="col col-lg-3 col-md-4">
                     <img src="images/Group3.png" />
                     <p class="copyright">&copy; 2017</p>
                 </div>
-                <div class="col col-6">
+                <div class="col col-lg-6 col-md-4">
                     <ul>
                         <li>
                             <a href="#" class="accessLink accessLink--color-grey">Acerca de nosotros</a>
@@ -214,10 +253,11 @@
                         <li><a href="#" class="accessLink accessLink--color-grey">Aviso de privacidad</a></li>
                     </ul>
                 </div>
-                <div class="col col-3">
+                <div class="col col-lg-3 col-md-4">
                     <ul>
                         <li>
-                            <a class="accessLink accessLink--color-grey" href="#">Acceso a clientes</a>
+                            <a class="accessLink accessLink--color-grey" href="https://admin.hiit.io/">Acceso a
+                                clientes</a>
                         </li>
                         <li>
                             <a class="accessLink accessLink--color-grey"

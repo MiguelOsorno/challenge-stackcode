@@ -129,12 +129,40 @@ ul{
     display: flex;
     justify-content: end;
 }
-.operation{
-    padding-top: 15px;
+.text-input{
+    margin-top: 10px;
+    width: 100%;
 }
-
+.container-height
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ul-pading{
+    padding: 0;
+}
+.textarea{
+    width: 100%;
+}
+.label{
+    width: 100%;
+}
+.input-form{
+    width: 100%;
+}
 @media (max-width: 720px)
 {
+    .banner-title-aling
+    {
+        text-align: center;
+    }
+    .banner_text--aling{
+        text-align: center;
+    }
+    .banner_content--position
+    {
+        position: relative;
+    }
     .banner_title--color-inverse{
         color:black;
     }
@@ -145,4 +173,23 @@ ul{
     .banner_text--color-inverse{
         color: black;
     }
+    .banner_text--font-size
+    {
+        font-size: 200%;
+    }
+    .list--text-align-left{
+        text-align: left;
+    }
+    .list--text-align-right{
+        text-align: right;
+    }
+    .banner_title--size
+    {
+        font-size: 100%;
+    }
+    .row--display-block
+    {
+        display: block;
+    }
 }
+
