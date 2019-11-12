@@ -24,13 +24,16 @@
         </div>
     </header>
     <div class="banner">
-        <img class="banner_image" src="images/Compu.png" />
+        <picture>
+            <source media="(max-width: 720px)" srcset="images/Compu_movil.png">
+            <img class="banner_image" src="images/Compu.png" />
+        </picture>
         <div class="banner_content">
             <div class="container">
                 <div class="row ">
-                    <div class="col col-5">
-                        <h1 class="banner_tittle banner_title--color-white">Controla tu centro deportivo</h1>
-                        <p class="banner_text banner_text--color-white">control total de tus clases, ingresos, alumnos y
+                    <div class="col col-lg-5 col-md-12 col--bgcolor-white-transparent">
+                        <h1 class="banner_tittle banner_title--color-white banner_title--color-inverse">Controla tu centro deportivo</h1>
+                        <p class="banner_text banner_text--color-white banner_text--color-inverse">control total de tus clases, ingresos, alumnos y
                             maestros en tiempo real desde cualquier
                             dispositivo</p>
                         <button type="button" class="btn button">

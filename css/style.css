@@ -12,8 +12,7 @@ header{
     color:white;
     text-align: center;
 }
-.accessLink--color-grey
-{
+.accessLink--color-grey{
     color:#f1f5f7;
 }
 .banner{
@@ -34,8 +33,7 @@ header{
     margin: 0;
     width: 100%;
 }
-.banner_title--color-white
-{
+.banner_title--color-white{
     color:white;
 }
 .banner_title--color-orange{
@@ -50,8 +48,7 @@ header{
 .banner_title--textaling-center{
     text-align: center;
 }
-.banner_content--bottom
-{
+.banner_content--bottom{
     bottom:-15;
 }
 .button{
@@ -61,8 +58,7 @@ button{
     color:white;
     font-weight: bold;
 }
-.container-button
-{
+.container-button{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -135,4 +131,18 @@ ul{
 }
 .operation{
     padding-top: 15px;
+}
+
+@media (max-width: 720px)
+{
+    .banner_title--color-inverse{
+        color:black;
+    }
+    .col--bgcolor-white-transparent{
+        background-color: rgba(250,250,250,0.6);
+        text-align: center;
+    }
+    .banner_text--color-inverse{
+        color: black;
+    }
 }
