@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #252525;
+}
+.accessLink{
+    color:white;
+    text-align: center;
+}
+.accessLink--color-grey
+{
+    color:#f1f5f7;
+}
+.banner{
+    position: relative;
+}
+.banner_content{
+    position: absolute;
+    width: 100%;
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.banner_image{
+    margin: 0;
+    width: 100%;
+}
+.banner_title--color-white
+{
+    color:white;
+}
+.banner_title--color-orange{
+    color:#ff6319;
+}
+.banner_text--color-white{
+    color:white;
+}
+.banner_text--color-grey{
+    color: #f1f5f7;
+}
+.banner_title--textaling-center{
+    text-align: center;
+}
+.banner_content--bottom
+{
+    bottom:-15;
+}
+.button{
+    background-color: #ff6319;
+}
+button{
+    color:white;
+    font-weight: bold;
+}
+.container-button
+{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+}
+.textBold{
+    font-weight: bold;
+}
+.banner--paddingtop-100{
+    padding-top: 100px ;
+}
+.banner--paddingbottom-150{
+    padding-bottom: 150px;
+}
+.banner--bgcolor-grey{
+    background-color:  #f1f5f7;
+}
+.banner--bgcolor-drakgrey{
+    background-color:#252525 ;
+}
+
+.icons{
+    display: inline-block;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+.line{
+    border-color:#f1f5f7;
+}
+.copyright{
+    color:#f1f5f7;
+}
+ul{
+    list-style: none;
+}
+.list{
+    color:white;
+}
+.prices{
+    font-size: 200%;
+}
+.pricesign{
+    font-size:50%;
+}
+.sport{
+    position: relative;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+.sport_content{
+    position: absolute;
+    width: 100%;
+    top:0;
+    right:0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.benefits{
+    display: flex;
+    justify-content: end;
+}
+.operation{
+    padding-top: 15px;
+}
